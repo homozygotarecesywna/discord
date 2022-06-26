@@ -28,7 +28,7 @@ app.post("/", (request, response) => {
     response.sendStatus(200);
 });
 
-app.listen(3000, () => console.log('Bo jak muzyką pierdolnie...'));
+app.listen(3000, () => console.log('Gotowe!'));
 
 function update(song, artist, timeNow, timeMax) {
     client.updatePresence({
